@@ -33,12 +33,12 @@ El sistema está diseñado para **uso empresarial**, sin dependencias de interne
 
 ## 📂 Estructura del proyecto
 ValeTajonal/
-  ├── app.py # Código principal
-  ├── Vale-Tajonal.pdf # Plantilla base del vale
-  ├── contador.txt # (Se genera automáticamente)
-  ├── output/ # PDFs generados
-  └── dist/
-  └── ValeTajonal.exe # Ejecutable final
+-  ├── app.py # Código principal
+-  ├── Vale-Tajonal.pdf # Plantilla base del vale
+-  ├── contador.txt # (Se genera automáticamente)
+-  ├── output/ # PDFs generados
+-  └── dist/
+-  └── ValeTajonal.exe # Ejecutable final
 
 
 > ⚠️ El archivo `contador.txt` y la carpeta `output` se crean automáticamente al ejecutar la aplicación.
@@ -72,7 +72,7 @@ Los vales generados pueden abrirse, imprimirse o compartirse sin necesidad de la
 
 Instalar PyInstaller:
 
-```bash
+``` bash
 pip install pyinstaller
 python -m PyInstaller --onefile --noconsole app.py
 
@@ -83,6 +83,7 @@ app.exe → ValeTajonal.exe
 
 #Colocar junto al ejecutable el archivo:
 Vale-Tajonal.pdf
+```
 
 ## 📄 Licencia
 Proyecto de uso privado / empresarial.
